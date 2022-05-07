@@ -940,6 +940,8 @@ Resources:
           Value: 509b197d-4f87-4ae1-aa43-8cca13c9e92e
         - Key: git_org
           Value: bridgecrewio
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: True
 
   ### TODO - Custom Upload of insecure document
   FinancialsBucket:
@@ -1027,6 +1029,8 @@ Resources:
           Value: 11266986-850e-41eb-b980-7b4d8d49f919
         - Key: git_org
           Value: bridgecrewio
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: True
   LogsBucket:
     # not encrypted
     Type: AWS::S3::Bucket
